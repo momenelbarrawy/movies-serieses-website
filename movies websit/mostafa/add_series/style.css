@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  color: #a91d99da;
+  font-family: Arial, sans-serif;
+  /* background-image: url(./); */
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.add {
+  margin: auto;
+  max-width: 600px;
+  padding: 40px;
+  border: 2px solid #a91d99da;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+input,textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid #a91d99da;
+  background-color: inherit;
+  color: #a91d99da;
+}
+select{
+  background-color: black;
+  color: #a91d99da;
+  font-size: large;
+  width: 40%;
+  border:2px solid #a91d99da;
+  margin-top: 20px;
+}
+.opt:hover{
+ background-color: black;
+}
+input[type="submit"] {
+  display: block;
+  width:20%;
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  background-color: #a91d99da;
+  color: black;
+  cursor: pointer;
+  margin: auto;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+  color: #a91d99da;
+}
+::-webkit-file-upload-button {
+  display: none;
+}
+.cover2{
+  cursor:pointer;
+ }

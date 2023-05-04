@@ -1,0 +1,61 @@
+body {
+
+
+    background: radial-gradient(circle at 50% 50%,black 10%,#a91d99da 330%); ;
+
+}
+
+.container500 {
+    width: 65%;
+    height: 550px;
+    position: relative;
+    left: 20%;
+    top: 0px;
+
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 7%;
+    border: 3px solid #a91d99da;
+
+    transform: rotateX(25deg);
+    transform: rotateY(25deg);
+
+
+}
+
+
+
+.container500 input {
+    width: 500px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: relative;
+    top: 50px;
+    left: 135px;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: #a91d99da;
+    margin-top: 30px;
+
+}
+
+
+
+input[type="submit"] {
+    background: #a91d99da;
+    color: white;
+    transition: 0.7s ease;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+h3 {
+    position: relative;
+    left: 45%;
+    top: 40px;
+
+    color: white;
+    font-size: 40px;
+}

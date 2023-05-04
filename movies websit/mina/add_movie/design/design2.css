@@ -1,0 +1,172 @@
+
+
+.form .addmovie {
+    width: 400px;
+    height: 600px;
+    overflow: visible;
+    padding: 10px;
+    margin: 10px auto;
+    border: 3px solid;
+    border-radius: 6px;
+    border-color: rgb(245, 245, 248);
+    position: absolute;
+    top: 30px;
+    right: 35%;
+    z-index: 5;
+    background-color: #eee;
+    box-shadow: 3px 3px 8px #b2aaaa;
+    
+}
+
+.addmovie h2 {
+    margin: 5px auto;
+    padding: 3px;
+    text-align: center;
+    text-shadow: 3px 3px 15px rgb(0, 0, 0);
+    font-style: italic;
+    color: rgb(0, 0, 0);
+
+}
+ .form .background { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 713px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 50px 50px 20px 5px #b2aaaa inset;
+}
+
+
+ .form .background img {
+    position: absolute;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.name .name1{
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 350px;
+    background-color: inherit;
+
+}
+.type .type1 {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 350px;
+    background-color: inherit;
+
+}
+
+.description .description1 {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 350px;
+    background-color: inherit;
+ 
+}
+
+.trailer .trailer1 {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 350px;
+    background-color: inherit;
+
+}
+
+.cover .cover1 {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 350px;
+    background-color: inherit;
+
+}
+
+.vedio .vedio1 {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 350px;
+    background-color: inherit;
+
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.send input { 
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 3px 3px 4px 0px black;
+    cursor: pointer;
+}
+
+.reset input {
+    background-color: white;
+    padding: 5px; 
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 15px;
+    position: absolute;
+    left: 80%;
+    bottom: 48px;
+    box-shadow: 3px 3px 4px 0px black;
+    cursor: pointer;
+}
+.send input:hover{
+
+    content: '';
+    left: 1px;
+    transition: 0.1s;
+}
+
+.buler {
+    position: absolute;
+    z-index: 3;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #4b4a4a2d;
+}

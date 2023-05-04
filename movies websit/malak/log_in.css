@@ -1,0 +1,114 @@
+
+body{
+   
+    background: radial-gradient(circle at 50% 50%,black 10%,#a91d99da 330%);
+
+}
+.container500{
+    width: 800px;
+    height: 550px;
+    position: relative;
+    left:310px;
+    top: -25px;
+    background-color: rgba(255, 255, 255,0.15);
+    border-radius: 7%;
+    border:3px solid #a91d99da;
+
+    transform: rotateX(25deg);
+    transform: rotateY(25deg);
+    
+    
+}
+h3{
+    position: relative;
+    left: 610px;
+}
+.logo img{
+    height: 150px;
+    width: 150px;
+    border: solid ,black;
+    border-radius:50% ;
+    border-image:url("C:\Users\Asus\Desktop\project\icons_rgb_purple_person.png") ;
+    position: relative;
+    left: 625px;
+    bottom: 535px;
+    
+    
+}
+input[type="email"]{
+
+    width: 500px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: relative;
+    top: 80px;
+    left: 100px;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: #a91d99da;
+    
+}
+
+
+input[type="password"]{
+
+    width: 500px;
+    height: 50px;
+    background-color: rgba(255, 255, 255,0.13);
+    position: relative;
+    top: 150px;
+    left: 100px;
+    border-radius: 12px ;
+    border-width: 2px;
+   border-color:#a91d99da;
+    
+}
+input[value="login"]{
+
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 300px;
+    left: -260px ;
+    border:100px ;
+    border-radius: 12px  ;
+    background-color: #a91d99da
+
+
+}
+input[type="submit"]:hover{
+    transform: scale(1.1);
+}
+
+input[type="checkbox"]{
+    position: relative;
+    top: 213px;
+    right: 615px;
+}
+.remember{
+    position: relative;
+    left: 120px;
+    top: 153px;
+    color: white;
+}
+.container500 a{
+    position: relative;
+    left: 400px;
+    bottom:-190px ;
+    color: #ff00e1;
+    font-size:large;
+}
+.account{
+    color: #ff00e1;
+    position: relative;
+    top:240px;
+    left: 235px;
+    font-size: 17px;
+}
+.alert-alert-danger h4{
+
+    color: azure;
+    position: relative;
+    top: 470px;
+    left:575px;
+}
